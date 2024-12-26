@@ -11,3 +11,29 @@ Steampipe es un motor de código abierto que permite consultar las API de la nub
 
 https://hub.steampipe.io/
 
+# Instalación
+
+1. Actualizar la instancia
+```
+sudo dnf update -y
+
+```
+
+https://docs.oracle.com/es-ww/iaas/Content/API/SDKDocs/cliinstall.htm#InstallingCLI__oraclelinux9
+
+2. Instalar CLI en la instnacia
+
+```
+sudo dnf -y install oraclelinux-developer-release-el9
+sudo dnf install python39-oci-cli
+```
+
+3. Preparar la instancia de OCI para luego instalar el Steampipe
+4. Validar versión OCI
+
+```
+oci setup config
+```
+5. Se pedira el OCID Tenancy y el OCID Usuario
+
+
