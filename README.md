@@ -35,5 +35,9 @@ sudo dnf install python39-oci-cli
 oci setup config
 ```
 5. Se pedira el OCID Tenancy y el OCID Usuario
+6. Luego se debe ingresar el Finger print ( Esta información la puedes ver directamente en la consola de OCI)
+
+
+
 
 
